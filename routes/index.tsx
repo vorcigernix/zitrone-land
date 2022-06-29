@@ -59,7 +59,7 @@ export default function Home() {
 					</div>
 				</div>
 			</header>
-			<section class={tw`text-white bg-gray-900`} name='hero'>
+			<section class={tw`text-white bg-gray-900`} id='hero'>
 				<div
 					class={tw`max-w-screen-xl px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex`}>
 					<div class={tw`max-w-3xl mx-auto text-center`}>
@@ -90,7 +90,7 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			<section class={tw`text-white bg-gray-900`} name='features'>
+			<section class={tw`text-white bg-gray-900`} id='features'>
 				<div class={tw`max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8`}>
 					<div class={tw`max-w-lg mx-auto text-center`}>
 						<h2 class={tw`text-3xl font-bold sm:text-4xl`}>Features</h2>
@@ -217,7 +217,7 @@ export default function Home() {
 					</p>
 					<div
 						class={tw`flex flex-wrap justify-center gap-4 mt-8`}
-						name='get-started'>
+						id='get-started'>
 						<a
 							href='https://discord.gg/2grJYtCG'
 							class={tw`block w-full px-12 py-3 text-sm font-medium text-white bg-green-600 border border-green-600 rounded sm:w-auto active:text-opacity-75 hover:bg-transparent hover:text-white focus:outline-none focus:ring`}>

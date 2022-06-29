@@ -66,7 +66,7 @@ export default function Home() {
 						<h1
 							class={tw`text-3xl font-extrabold text-transparent sm:text-5xl bg-clip-text bg-gradient-to-r from-green-300 via-green-500 to-purple-600`}>
 							DAO Scheduling
-							<span class={tw`sm:block`}>Made Easy.</span>
+							<span class={tw`block`}>Made Easy.</span>
 						</h1>
 
 						<p class={tw`max-w-xl mx-auto mt-4 sm:leading-relaxed sm:text-xl`}>
